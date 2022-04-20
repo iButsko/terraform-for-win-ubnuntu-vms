@@ -1,0 +1,10 @@
+instance_type   = "t3a.xlarge"
+subnet_id       = "subnet-0bfd676ba31a8c2c0"
+key_name        = "win-key"
+vpc_id          = "vpc-0b4b31bf68b54cb3a"
+name            = "jira-task-1-windows"
+port_ubuntu     = ["22", "8080"]
+protocol_ubuntu = "SSH"
+port_windows    = ["3389", "22"]
+protocol_en     = "ALL"
+key_path        = "/home/user/local/terr/win-key.pem"
